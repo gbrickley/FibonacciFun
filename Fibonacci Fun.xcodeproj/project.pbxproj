@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		0333FD032127416C0040B548 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0333FD022127416C0040B548 /* AppDelegate.swift */; };
-		0333FD052127416C0040B548 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0333FD042127416C0040B548 /* ViewController.swift */; };
 		0333FD082127416C0040B548 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0333FD062127416C0040B548 /* Main.storyboard */; };
 		0333FD0A2127416D0040B548 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0333FD092127416D0040B548 /* Assets.xcassets */; };
 		0333FD0D2127416D0040B548 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0333FD0B2127416D0040B548 /* LaunchScreen.storyboard */; };
-		0333FD182127416D0040B548 /* Fibonacci_FunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0333FD172127416D0040B548 /* Fibonacci_FunTests.swift */; };
 		0333FD232127416D0040B548 /* Fibonacci_FunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0333FD222127416D0040B548 /* Fibonacci_FunUITests.swift */; };
+		0333FD35212743DE0040B548 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0333FD34212743DE0040B548 /* HomeViewController.swift */; };
+		0333FD37212744020040B548 /* FibonacciCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0333FD36212744020040B548 /* FibonacciCalculator.swift */; };
+		0333FD3A212745620040B548 /* FibonacciCalculationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0333FD39212745620040B548 /* FibonacciCalculationResult.swift */; };
+		0333FD3C212753310040B548 /* FibonacciCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0333FD3B212753310040B548 /* FibonacciCalculatorTests.swift */; };
+		0333FD3E21276DDD0040B548 /* SuperInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0333FD3D21276DDD0040B548 /* SuperInt.swift */; };
+		0333FD40212773370040B548 /* SuperIntCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0333FD3F212773370040B548 /* SuperIntCalculator.swift */; };
+		0333FD4221277B0D0040B548 /* SuperIntCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0333FD4121277B0D0040B548 /* SuperIntCalculatorTests.swift */; };
+		0333FD462127B7C80040B548 /* SuperIntNumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0333FD452127B7C80040B548 /* SuperIntNumberFormatter.swift */; };
+		0333FD482127C3F20040B548 /* String+SuperInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0333FD472127C3F20040B548 /* String+SuperInt.swift */; };
+		97C8063E5BE3CE390BBD99A7 /* Pods_Fibonacci_FunTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226699B2B633848ACF446F53 /* Pods_Fibonacci_FunTests.framework */; };
+		9F137299DF99BAF1E0B4418A /* Pods_Fibonacci_Fun.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C048527D197B6A1D702B052C /* Pods_Fibonacci_Fun.framework */; };
+		E3599D3A60C7EC2F324289CF /* Pods_Fibonacci_FunUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DAD93C1FBA6734A9EF2BA01 /* Pods_Fibonacci_FunUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,17 +46,33 @@
 /* Begin PBXFileReference section */
 		0333FCFF2127416C0040B548 /* Fibonacci Fun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fibonacci Fun.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0333FD022127416C0040B548 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0333FD042127416C0040B548 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0333FD072127416C0040B548 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0333FD092127416D0040B548 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0333FD0C2127416D0040B548 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0333FD0E2127416D0040B548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0333FD132127416D0040B548 /* Fibonacci FunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fibonacci FunTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0333FD172127416D0040B548 /* Fibonacci_FunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fibonacci_FunTests.swift; sourceTree = "<group>"; };
 		0333FD192127416D0040B548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0333FD1E2127416D0040B548 /* Fibonacci FunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fibonacci FunUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0333FD222127416D0040B548 /* Fibonacci_FunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fibonacci_FunUITests.swift; sourceTree = "<group>"; };
 		0333FD242127416D0040B548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0333FD34212743DE0040B548 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0333FD36212744020040B548 /* FibonacciCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciCalculator.swift; sourceTree = "<group>"; };
+		0333FD39212745620040B548 /* FibonacciCalculationResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciCalculationResult.swift; sourceTree = "<group>"; };
+		0333FD3B212753310040B548 /* FibonacciCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciCalculatorTests.swift; sourceTree = "<group>"; };
+		0333FD3D21276DDD0040B548 /* SuperInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperInt.swift; sourceTree = "<group>"; };
+		0333FD3F212773370040B548 /* SuperIntCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperIntCalculator.swift; sourceTree = "<group>"; };
+		0333FD4121277B0D0040B548 /* SuperIntCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperIntCalculatorTests.swift; sourceTree = "<group>"; };
+		0333FD452127B7C80040B548 /* SuperIntNumberFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperIntNumberFormatter.swift; sourceTree = "<group>"; };
+		0333FD472127C3F20040B548 /* String+SuperInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+SuperInt.swift"; sourceTree = "<group>"; };
+		1DAD93C1FBA6734A9EF2BA01 /* Pods_Fibonacci_FunUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fibonacci_FunUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		226699B2B633848ACF446F53 /* Pods_Fibonacci_FunTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fibonacci_FunTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E317F7C62101E99E330CC1B /* Pods-Fibonacci FunTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fibonacci FunTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fibonacci FunTests/Pods-Fibonacci FunTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2E776B61B78E7E8D3394EF9D /* Pods-Fibonacci Fun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fibonacci Fun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fibonacci Fun/Pods-Fibonacci Fun.debug.xcconfig"; sourceTree = "<group>"; };
+		4355DD8DC56B9622FCE54A78 /* Pods-Fibonacci FunTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fibonacci FunTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fibonacci FunTests/Pods-Fibonacci FunTests.release.xcconfig"; sourceTree = "<group>"; };
+		837B4EC58EE0E0A2567D4A5E /* Pods-Fibonacci FunUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fibonacci FunUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fibonacci FunUITests/Pods-Fibonacci FunUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		99C603B70186BE293871E37B /* Pods-Fibonacci FunUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fibonacci FunUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fibonacci FunUITests/Pods-Fibonacci FunUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B85D38E3CA48250AB7EA2A7F /* Pods-Fibonacci Fun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fibonacci Fun.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fibonacci Fun/Pods-Fibonacci Fun.release.xcconfig"; sourceTree = "<group>"; };
+		C048527D197B6A1D702B052C /* Pods_Fibonacci_Fun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fibonacci_Fun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F137299DF99BAF1E0B4418A /* Pods_Fibonacci_Fun.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97C8063E5BE3CE390BBD99A7 /* Pods_Fibonacci_FunTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3599D3A60C7EC2F324289CF /* Pods_Fibonacci_FunUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +110,8 @@
 				0333FD162127416D0040B548 /* Fibonacci FunTests */,
 				0333FD212127416D0040B548 /* Fibonacci FunUITests */,
 				0333FD002127416C0040B548 /* Products */,
+				A70F69AE08DB6BBFA03B0CF9 /* Pods */,
+				EAB2C1D26070424859A074E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +129,11 @@
 			isa = PBXGroup;
 			children = (
 				0333FD022127416C0040B548 /* AppDelegate.swift */,
-				0333FD042127416C0040B548 /* ViewController.swift */,
-				0333FD062127416C0040B548 /* Main.storyboard */,
-				0333FD092127416D0040B548 /* Assets.xcassets */,
-				0333FD0B2127416D0040B548 /* LaunchScreen.storyboard */,
 				0333FD0E2127416D0040B548 /* Info.plist */,
+				0333FD31212741980040B548 /* View */,
+				0333FD322127419C0040B548 /* Controller */,
+				0333FD382127446A0040B548 /* Fibonacci Calculator */,
+				0333FD33212741CD0040B548 /* Assets */,
 			);
 			path = "Fibonacci Fun";
 			sourceTree = "<group>";
@@ -110,7 +141,8 @@
 		0333FD162127416D0040B548 /* Fibonacci FunTests */ = {
 			isa = PBXGroup;
 			children = (
-				0333FD172127416D0040B548 /* Fibonacci_FunTests.swift */,
+				0333FD3B212753310040B548 /* FibonacciCalculatorTests.swift */,
+				0333FD4121277B0D0040B548 /* SuperIntCalculatorTests.swift */,
 				0333FD192127416D0040B548 /* Info.plist */,
 			);
 			path = "Fibonacci FunTests";
@@ -125,6 +157,83 @@
 			path = "Fibonacci FunUITests";
 			sourceTree = "<group>";
 		};
+		0333FD31212741980040B548 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0333FD062127416C0040B548 /* Main.storyboard */,
+				0333FD0B2127416D0040B548 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0333FD322127419C0040B548 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0333FD34212743DE0040B548 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0333FD33212741CD0040B548 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				0333FD092127416D0040B548 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		0333FD382127446A0040B548 /* Fibonacci Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				0333FD36212744020040B548 /* FibonacciCalculator.swift */,
+				0333FD39212745620040B548 /* FibonacciCalculationResult.swift */,
+				0333FD442127B74B0040B548 /* Super Int */,
+				0333FD432127B7380040B548 /* Utilities */,
+			);
+			path = "Fibonacci Calculator";
+			sourceTree = "<group>";
+		};
+		0333FD432127B7380040B548 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		0333FD442127B74B0040B548 /* Super Int */ = {
+			isa = PBXGroup;
+			children = (
+				0333FD3D21276DDD0040B548 /* SuperInt.swift */,
+				0333FD3F212773370040B548 /* SuperIntCalculator.swift */,
+				0333FD452127B7C80040B548 /* SuperIntNumberFormatter.swift */,
+				0333FD472127C3F20040B548 /* String+SuperInt.swift */,
+			);
+			path = "Super Int";
+			sourceTree = "<group>";
+		};
+		A70F69AE08DB6BBFA03B0CF9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E776B61B78E7E8D3394EF9D /* Pods-Fibonacci Fun.debug.xcconfig */,
+				B85D38E3CA48250AB7EA2A7F /* Pods-Fibonacci Fun.release.xcconfig */,
+				2E317F7C62101E99E330CC1B /* Pods-Fibonacci FunTests.debug.xcconfig */,
+				4355DD8DC56B9622FCE54A78 /* Pods-Fibonacci FunTests.release.xcconfig */,
+				837B4EC58EE0E0A2567D4A5E /* Pods-Fibonacci FunUITests.debug.xcconfig */,
+				99C603B70186BE293871E37B /* Pods-Fibonacci FunUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EAB2C1D26070424859A074E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C048527D197B6A1D702B052C /* Pods_Fibonacci_Fun.framework */,
+				226699B2B633848ACF446F53 /* Pods_Fibonacci_FunTests.framework */,
+				1DAD93C1FBA6734A9EF2BA01 /* Pods_Fibonacci_FunUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +241,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0333FD272127416D0040B548 /* Build configuration list for PBXNativeTarget "Fibonacci Fun" */;
 			buildPhases = (
+				5669C7CC9739F351FB00440B /* [CP] Check Pods Manifest.lock */,
 				0333FCFB2127416C0040B548 /* Sources */,
 				0333FCFC2127416C0040B548 /* Frameworks */,
 				0333FCFD2127416C0040B548 /* Resources */,
+				ED0FBB7293260962F3860724 /* [CP] Embed Pods Frameworks */,
+				E3E0082F7A3C46822ABB5672 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +261,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0333FD2A2127416D0040B548 /* Build configuration list for PBXNativeTarget "Fibonacci FunTests" */;
 			buildPhases = (
+				6BC60DDB9CE20F800F754C2C /* [CP] Check Pods Manifest.lock */,
 				0333FD0F2127416D0040B548 /* Sources */,
 				0333FD102127416D0040B548 /* Frameworks */,
 				0333FD112127416D0040B548 /* Resources */,
+				8B4CB67DDDD95EB2417B4631 /* [CP] Embed Pods Frameworks */,
+				7635EB88C3B590BC750A2AB2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +282,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0333FD2D2127416D0040B548 /* Build configuration list for PBXNativeTarget "Fibonacci FunUITests" */;
 			buildPhases = (
+				90A1F0063FF501BCA233569A /* [CP] Check Pods Manifest.lock */,
 				0333FD1A2127416D0040B548 /* Sources */,
 				0333FD1B2127416D0040B548 /* Frameworks */,
 				0333FD1C2127416D0040B548 /* Resources */,
+				E7614D17AA947B6E7F05FD27 /* [CP] Embed Pods Frameworks */,
+				18D2C8433F108441E9408144 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,13 +369,172 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		18D2C8433F108441E9408144 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fibonacci FunUITests/Pods-Fibonacci FunUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5669C7CC9739F351FB00440B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fibonacci Fun-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BC60DDB9CE20F800F754C2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fibonacci FunTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7635EB88C3B590BC750A2AB2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fibonacci FunTests/Pods-Fibonacci FunTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B4CB67DDDD95EB2417B4631 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Fibonacci FunTests/Pods-Fibonacci FunTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BigNumber/BigNumber.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BigNumber.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fibonacci FunTests/Pods-Fibonacci FunTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90A1F0063FF501BCA233569A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fibonacci FunUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3E0082F7A3C46822ABB5672 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fibonacci Fun/Pods-Fibonacci Fun-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7614D17AA947B6E7F05FD27 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fibonacci FunUITests/Pods-Fibonacci FunUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED0FBB7293260962F3860724 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Fibonacci Fun/Pods-Fibonacci Fun-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BigNumber/BigNumber.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BigNumber.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fibonacci Fun/Pods-Fibonacci Fun-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0333FCFB2127416C0040B548 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0333FD052127416C0040B548 /* ViewController.swift in Sources */,
 				0333FD032127416C0040B548 /* AppDelegate.swift in Sources */,
+				0333FD37212744020040B548 /* FibonacciCalculator.swift in Sources */,
+				0333FD3A212745620040B548 /* FibonacciCalculationResult.swift in Sources */,
+				0333FD3E21276DDD0040B548 /* SuperInt.swift in Sources */,
+				0333FD482127C3F20040B548 /* String+SuperInt.swift in Sources */,
+				0333FD35212743DE0040B548 /* HomeViewController.swift in Sources */,
+				0333FD40212773370040B548 /* SuperIntCalculator.swift in Sources */,
+				0333FD462127B7C80040B548 /* SuperIntNumberFormatter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +542,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0333FD182127416D0040B548 /* Fibonacci_FunTests.swift in Sources */,
+				0333FD3C212753310040B548 /* FibonacciCalculatorTests.swift in Sources */,
+				0333FD4221277B0D0040B548 /* SuperIntCalculatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +706,7 @@
 		};
 		0333FD282127416D0040B548 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E776B61B78E7E8D3394EF9D /* Pods-Fibonacci Fun.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,6 +725,7 @@
 		};
 		0333FD292127416D0040B548 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B85D38E3CA48250AB7EA2A7F /* Pods-Fibonacci Fun.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +744,7 @@
 		};
 		0333FD2B2127416D0040B548 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E317F7C62101E99E330CC1B /* Pods-Fibonacci FunTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +766,7 @@
 		};
 		0333FD2C2127416D0040B548 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4355DD8DC56B9622FCE54A78 /* Pods-Fibonacci FunTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +788,7 @@
 		};
 		0333FD2E2127416D0040B548 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 837B4EC58EE0E0A2567D4A5E /* Pods-Fibonacci FunUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +809,7 @@
 		};
 		0333FD2F2127416D0040B548 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99C603B70186BE293871E37B /* Pods-Fibonacci FunUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
