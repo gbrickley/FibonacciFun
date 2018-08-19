@@ -61,5 +61,3 @@ extension SuperIntCalculator {
         return SuperInt(withBigInt: sum)
     }
 }
-
-

@@ -21,6 +21,14 @@
 		0333FD4221277B0D0040B548 /* SuperIntCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0333FD4121277B0D0040B548 /* SuperIntCalculatorTests.swift */; };
 		0333FD462127B7C80040B548 /* SuperIntNumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0333FD452127B7C80040B548 /* SuperIntNumberFormatter.swift */; };
 		0333FD482127C3F20040B548 /* String+SuperInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0333FD472127C3F20040B548 /* String+SuperInt.swift */; };
+		0333FD4D21286E020040B548 /* SequenceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0333FD4C21286E020040B548 /* SequenceCell.swift */; };
+		0333FD50212873190040B548 /* UITableView+Fib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0333FD4F212873190040B548 /* UITableView+Fib.swift */; };
+		0333FD5221287D140040B548 /* TimeInterval+Fib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0333FD5121287D140040B548 /* TimeInterval+Fib.swift */; };
+		0333FD542128DE070040B548 /* UIViewController+Fib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0333FD532128DE070040B548 /* UIViewController+Fib.swift */; };
+		0333FD572128E10A0040B548 /* CalculationHistoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0333FD562128E10A0040B548 /* CalculationHistoryManager.swift */; };
+		0333FD592128E2F40040B548 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0333FD582128E2F40040B548 /* HistoryViewController.swift */; };
+		0333FD5B2128E3DD0040B548 /* HistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0333FD5A2128E3DD0040B548 /* HistoryCell.swift */; };
+		0333FD5D212A09A80040B548 /* Double+Fib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0333FD5C212A09A80040B548 /* Double+Fib.swift */; };
 		97C8063E5BE3CE390BBD99A7 /* Pods_Fibonacci_FunTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226699B2B633848ACF446F53 /* Pods_Fibonacci_FunTests.framework */; };
 		9F137299DF99BAF1E0B4418A /* Pods_Fibonacci_Fun.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C048527D197B6A1D702B052C /* Pods_Fibonacci_Fun.framework */; };
 		E3599D3A60C7EC2F324289CF /* Pods_Fibonacci_FunUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DAD93C1FBA6734A9EF2BA01 /* Pods_Fibonacci_FunUITests.framework */; };
@@ -64,6 +72,14 @@
 		0333FD4121277B0D0040B548 /* SuperIntCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperIntCalculatorTests.swift; sourceTree = "<group>"; };
 		0333FD452127B7C80040B548 /* SuperIntNumberFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperIntNumberFormatter.swift; sourceTree = "<group>"; };
 		0333FD472127C3F20040B548 /* String+SuperInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+SuperInt.swift"; sourceTree = "<group>"; };
+		0333FD4C21286E020040B548 /* SequenceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceCell.swift; sourceTree = "<group>"; };
+		0333FD4F212873190040B548 /* UITableView+Fib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Fib.swift"; sourceTree = "<group>"; };
+		0333FD5121287D140040B548 /* TimeInterval+Fib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeInterval+Fib.swift"; sourceTree = "<group>"; };
+		0333FD532128DE070040B548 /* UIViewController+Fib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Fib.swift"; sourceTree = "<group>"; };
+		0333FD562128E10A0040B548 /* CalculationHistoryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationHistoryManager.swift; sourceTree = "<group>"; };
+		0333FD582128E2F40040B548 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		0333FD5A2128E3DD0040B548 /* HistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCell.swift; sourceTree = "<group>"; };
+		0333FD5C212A09A80040B548 /* Double+Fib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Fib.swift"; sourceTree = "<group>"; };
 		1DAD93C1FBA6734A9EF2BA01 /* Pods_Fibonacci_FunUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fibonacci_FunUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		226699B2B633848ACF446F53 /* Pods_Fibonacci_FunTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fibonacci_FunTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E317F7C62101E99E330CC1B /* Pods-Fibonacci FunTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fibonacci FunTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fibonacci FunTests/Pods-Fibonacci FunTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -132,6 +148,8 @@
 				0333FD0E2127416D0040B548 /* Info.plist */,
 				0333FD31212741980040B548 /* View */,
 				0333FD322127419C0040B548 /* Controller */,
+				0333FD552128E0F00040B548 /* Data Persistence */,
+				0333FD4E212873010040B548 /* Extensions */,
 				0333FD382127446A0040B548 /* Fibonacci Calculator */,
 				0333FD33212741CD0040B548 /* Assets */,
 			);
@@ -162,6 +180,7 @@
 			children = (
 				0333FD062127416C0040B548 /* Main.storyboard */,
 				0333FD0B2127416D0040B548 /* LaunchScreen.storyboard */,
+				0333FD4B21286DE50040B548 /* Table Cells */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -170,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				0333FD34212743DE0040B548 /* HomeViewController.swift */,
+				0333FD582128E2F40040B548 /* HistoryViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -188,16 +208,8 @@
 				0333FD36212744020040B548 /* FibonacciCalculator.swift */,
 				0333FD39212745620040B548 /* FibonacciCalculationResult.swift */,
 				0333FD442127B74B0040B548 /* Super Int */,
-				0333FD432127B7380040B548 /* Utilities */,
 			);
 			path = "Fibonacci Calculator";
-			sourceTree = "<group>";
-		};
-		0333FD432127B7380040B548 /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Utilities;
 			sourceTree = "<group>";
 		};
 		0333FD442127B74B0040B548 /* Super Int */ = {
@@ -209,6 +221,34 @@
 				0333FD472127C3F20040B548 /* String+SuperInt.swift */,
 			);
 			path = "Super Int";
+			sourceTree = "<group>";
+		};
+		0333FD4B21286DE50040B548 /* Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0333FD4C21286E020040B548 /* SequenceCell.swift */,
+				0333FD5A2128E3DD0040B548 /* HistoryCell.swift */,
+			);
+			path = "Table Cells";
+			sourceTree = "<group>";
+		};
+		0333FD4E212873010040B548 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0333FD4F212873190040B548 /* UITableView+Fib.swift */,
+				0333FD5121287D140040B548 /* TimeInterval+Fib.swift */,
+				0333FD5C212A09A80040B548 /* Double+Fib.swift */,
+				0333FD532128DE070040B548 /* UIViewController+Fib.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0333FD552128E0F00040B548 /* Data Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				0333FD562128E10A0040B548 /* CalculationHistoryManager.swift */,
+			);
+			path = "Data Persistence";
 			sourceTree = "<group>";
 		};
 		A70F69AE08DB6BBFA03B0CF9 /* Pods */ = {
@@ -510,10 +550,16 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Fibonacci Fun/Pods-Fibonacci Fun-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/BigNumber/BigNumber.framework",
+				"${BUILT_PRODUCTS_DIR}/EmptyDataSet-Swift/EmptyDataSet_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MPNumericTextField/MPNumericTextField.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BigNumber.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EmptyDataSet_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MPNumericTextField.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -529,11 +575,19 @@
 			files = (
 				0333FD032127416C0040B548 /* AppDelegate.swift in Sources */,
 				0333FD37212744020040B548 /* FibonacciCalculator.swift in Sources */,
+				0333FD5D212A09A80040B548 /* Double+Fib.swift in Sources */,
 				0333FD3A212745620040B548 /* FibonacciCalculationResult.swift in Sources */,
+				0333FD572128E10A0040B548 /* CalculationHistoryManager.swift in Sources */,
 				0333FD3E21276DDD0040B548 /* SuperInt.swift in Sources */,
+				0333FD592128E2F40040B548 /* HistoryViewController.swift in Sources */,
 				0333FD482127C3F20040B548 /* String+SuperInt.swift in Sources */,
+				0333FD5221287D140040B548 /* TimeInterval+Fib.swift in Sources */,
+				0333FD4D21286E020040B548 /* SequenceCell.swift in Sources */,
+				0333FD5B2128E3DD0040B548 /* HistoryCell.swift in Sources */,
 				0333FD35212743DE0040B548 /* HomeViewController.swift in Sources */,
+				0333FD50212873190040B548 /* UITableView+Fib.swift in Sources */,
 				0333FD40212773370040B548 /* SuperIntCalculator.swift in Sources */,
+				0333FD542128DE070040B548 /* UIViewController+Fib.swift in Sources */,
 				0333FD462127B7C80040B548 /* SuperIntNumberFormatter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,0 +1,6 @@
+framework module Pods_Fibonacci_FunUITests {
+  umbrella header "Pods-Fibonacci FunUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

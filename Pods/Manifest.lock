@@ -1,0 +1,30 @@
+PODS:
+  - BigNumber (2.0)
+  - EmptyDataSet-Swift (4.0.5)
+  - MBProgressHUD (1.1.0)
+  - MPNumericTextField (1.4.0)
+
+DEPENDENCIES:
+  - BigNumber (from `https://github.com/mkrd/Swift-Big-Integer.git`)
+  - EmptyDataSet-Swift
+  - MBProgressHUD
+  - MPNumericTextField
+
+EXTERNAL SOURCES:
+  BigNumber:
+    :git: https://github.com/mkrd/Swift-Big-Integer.git
+
+CHECKOUT OPTIONS:
+  BigNumber:
+    :commit: df6342839b6b3658feac8265780b14df7155d7b5
+    :git: https://github.com/mkrd/Swift-Big-Integer.git
+
+SPEC CHECKSUMS:
+  BigNumber: bcc393c06b3e7e2752e5121be58c032c45c6f36b
+  EmptyDataSet-Swift: a25810f50c3adfaa3840aa33ae8b5ba12ac29279
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MPNumericTextField: a0f0a1e1e65d2de6b9d718b33c60ea9a3131fee4
+
+PODFILE CHECKSUM: 184caead78e6cc33f5284c864ed73c33a84781c8
+
+COCOAPODS: 1.4.0

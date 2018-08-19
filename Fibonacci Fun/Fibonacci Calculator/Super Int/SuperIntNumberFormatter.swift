@@ -10,7 +10,7 @@ import UIKit
 
 class SuperIntNumberFormatter: NumberFormatter {
     
-    // Using the formatter as a singleton in order to save on resources
+    // Using the formatter as a singleton in order to save resources
     static let sharedInstance = SuperIntNumberFormatter()
     
     override init() {

@@ -7,6 +7,7 @@
 //
 
 import XCTest
+import BigNumber
 @testable import Fibonacci_Fun
 
 class FibonacciCalculatorTests: XCTestCase {
@@ -23,21 +24,19 @@ class FibonacciCalculatorTests: XCTestCase {
         super.tearDown()
     }
     
-    /*
     func testCalculatorWithBasicUpperBound() {
 
         let upperBound: UInt = 5
         let expectation = self.expectation(description: "calls the callback with response")
-        let int1 = SuperInt(withInt: 0)
-        let expectedSequence:[SuperInt] = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610]
+        let expectedLast = SuperInt(withInt: 5).stringRepresentation()
 
         calculator.calculateFibonacciSequence(endingAt: upperBound, completion: { result in
             
             switch result {
                 
             case .success(let result):
-                result.printDetails()
-                XCTAssertEqual(result.sequence, expectedSequence)
+                let calculatedLast = result.sequence.last?.stringRepresentation()
+                XCTAssertEqual(calculatedLast, expectedLast)
                 
             case .error(let code, let description):
                 XCTAssert(false, "Returned error [\(code)]: \(description)")
@@ -49,18 +48,45 @@ class FibonacciCalculatorTests: XCTestCase {
         self.waitForExpectations(timeout: 3, handler: .none)
     }
     
-    func testCalculatorWithZeroValue() {
+    func testCalculatorWithUpperBoundCausingOverflow() {
         
-        let upperBound: UInt = 0
+        let upperBound: UInt = 100
         let expectation = self.expectation(description: "calls the callback with response")
-        let expectedSequence:[UInt] = [0]
+        let expectedLast = SuperInt(withBigInt: BInt("354224848179261915075")!).stringRepresentation()
         
         calculator.calculateFibonacciSequence(endingAt: upperBound, completion: { result in
             
             switch result {
                 
             case .success(let result):
-                XCTAssertEqual(result.sequence, expectedSequence)
+                let calculatedLast = result.sequence.last?.stringRepresentation()
+                XCTAssertEqual(calculatedLast, expectedLast)
+                
+            case .error(let code, let description):
+                XCTAssert(false, "Returned error [\(code)]: \(description)")
+            }
+            
+            expectation.fulfill()
+        })
+        
+        self.waitForExpectations(timeout: 3, handler: .none)
+    }
+    
+    func testCalculatorWithLargeUpperBound() {
+        
+        let upperBound: UInt = 1000
+        let expectation = self.expectation(description: "calls the callback with response")
+        let val = "43466557686937456435688527675040625802564660517371780402481729089536555417949051890403879840079255169295922593080322634775209689623239873322471161642996440906533187938298969649928516003704476137795166849228875"
+    
+        let expectedLast = SuperInt(withBigInt: BInt(val)!).stringRepresentation()
+        
+        calculator.calculateFibonacciSequence(endingAt: upperBound, completion: { result in
+            
+            switch result {
+                
+            case .success(let result):
+                let calculatedLast = result.sequence.last?.stringRepresentation()
+                XCTAssertEqual(calculatedLast, expectedLast)
                 
             case .error(let code, let description):
                 XCTAssert(false, "Returned error [\(code)]: \(description)")
@@ -76,7 +102,7 @@ class FibonacciCalculatorTests: XCTestCase {
 
         self.measure {
             
-            let upperBound: UInt = 10000
+            let upperBound: UInt = 100
             let expectation = self.expectation(description: "calls the callback with response")
             
             calculator.calculateFibonacciSequence(endingAt: upperBound, completion: { result in
@@ -86,6 +112,5 @@ class FibonacciCalculatorTests: XCTestCase {
             self.waitForExpectations(timeout: 10, handler: .none)
         }
     }
-    */
-    
+
 }
