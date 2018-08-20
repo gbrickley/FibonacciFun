@@ -36,7 +36,10 @@ class CalculationHistoryManager {
 extension CalculationHistoryManager {
     
     private func persistHistoryLocally() {
-        NSKeyedArchiver.archiveRootObject(history, toFile: savePath())
+        // This can take a little time, so run it in the background
+        DispatchQueue.global(qos: .default).async {
+            NSKeyedArchiver.archiveRootObject(self.history, toFile: self.savePath())
+        }
     }
     
     private func locallySavedHistory() -> [FibonacciCalculationResult] {

@@ -19,6 +19,9 @@ class HomeViewController: UIViewController {
     // This array will hold our most recently calculated sequence
     var sequence = [SuperInt]()
     
+    // The history manager adds
+    let historyManager = CalculationHistoryManager.sharedInstance
+    
     // The time it took to calculate the most recent sequence
     var calculationTime: TimeInterval?
     
@@ -76,9 +79,9 @@ private extension HomeViewController {
             switch result {
                 
             case .success(let result):
-                sequence = result.sequence
-                calculationTime = result.calculationTime
-                CalculationHistoryManager.sharedInstance.add(result: result)
+                self.sequence = result.sequence
+                self.calculationTime = result.calculationTime
+                self.historyManager.add(result: result)
                 
             case .error( _, let description):
                 self.errorMessage = description

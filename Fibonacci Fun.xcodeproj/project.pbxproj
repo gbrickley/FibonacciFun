@@ -148,9 +148,9 @@
 				0333FD0E2127416D0040B548 /* Info.plist */,
 				0333FD31212741980040B548 /* View */,
 				0333FD322127419C0040B548 /* Controller */,
+				0333FD382127446A0040B548 /* Fibonacci Calculator */,
 				0333FD552128E0F00040B548 /* Data Persistence */,
 				0333FD4E212873010040B548 /* Extensions */,
-				0333FD382127446A0040B548 /* Fibonacci Calculator */,
 				0333FD33212741CD0040B548 /* Assets */,
 			);
 			path = "Fibonacci Fun";
